@@ -1,5 +1,43 @@
-#intro {
+/* #intro {
   color: #ff0000;
   font-weight: bolder;
   font-size: 50px;
+}
+
+button:hover {
+  color: rgb(81, 182, 81)
+}
+
+button {
+  animation-duration: 5s;
+  animation-name: slidein;
+  color: #ffc0cb;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 5px;
+  background-color: blue;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 10%;
+  }
+  to {
+    margin-right: 50%;
+    width: 20%;
+  }
+
+} */
+
+.box {
+  color: greenyellow;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.box2 {
+  color:aquamarine;
+  font-weight: 400;
+  font-size: 30px;
 }
